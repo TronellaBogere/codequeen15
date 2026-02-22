@@ -1,10 +1,29 @@
-*{
-    background-color: rgb(224, 249, 250);
+/* *{
+    background-color:  rgb(224, 249, 250);
     
-}
+} */
 h1{
     color:rgb(14, 12, 112);
 }
 img{
     width: 200px
+}
+.html{
+    color: rgb(98, 0, 255);
+}
+.javascript{
+color: rgb(98, 0, 255);
+}
+.css{
+    color: rgb(98, 0, 255);
+}
+.skills {
+  list-style-position: inside;
+  width: 500px;   /* reduce pink area */
+  margin-left: 0;
+}
+
+.skills li {
+  background-color: rgb(178, 229, 249);
+  padding: 8px;
 }
