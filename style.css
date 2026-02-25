@@ -43,16 +43,45 @@ color: rgb(98, 0, 255);
 }
 /* My flex properties */
 .container{
-    background-color:rgba(174, 249, 240, 0.913);
+    /* background-color:rgba(174, 249, 240, 0.913); */
     font-size: 20px;
     font-display: ;
 }
+
 .childContainer{
-background-color: rgb(229, 253, 217); 
+background-color: rgb(107, 178, 72); 
 display:flex;
 /* flex-direction: row; */
 gap: 800px;
 /* justify-content: space-between; */
-
 }
  
+/* blue container */
+.blue-container{
+    border:3px blue solid;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    align-items: center;
+    
+}
+
+.flex-items{
+    border: 2px orangered solid;
+    margin: 5px;
+    height:25px;
+    width: 80px;
+
+}
+.mine{
+   color: rgb(247, 10, 50); 
+}
+.insta{
+    color:rgb(212, 116, 200);
+}
+.face{
+    color:rgb(21, 160, 188);
+}
+.linked{
+    color:darkblue;
+}
